@@ -8,12 +8,12 @@ BACKUP_DIR = Path(r"C:\Users\Adm\Desktop\tempus\SMC\COMUNICA\Backup")
 SQLITE_DB = BASE_DIR / "local_agent.db"
 POINTER_FILE = BASE_DIR / "pointer.json"
 
-API_BASE_URL = os.getenv("API_BASE_URL", "https://kronn-payroll.up.railway.app/apis/v1")
+API_BASE_URL = os.getenv("API_BASE_URL", "")
 API_SYNC_ENDPOINT = f"{API_BASE_URL}/biometric/marks-sync/"
-API_TOKEN_ENDPOINT = os.getenv("API_TOKEN_URL", "https://kronn-payroll.up.railway.app/api/token/")
+API_TOKEN_ENDPOINT = os.getenv("")
 
-API_USERNAME = os.getenv("API_USERNAME", "ADMIN")
-API_PASSWORD = os.getenv("API_PASSWORD", "ADMIN123456")
+API_USERNAME = os.getenv("API_USERNAME", "")
+API_PASSWORD = os.getenv("API_PASSWORD", "")
 
 POLL_INTERVAL = 2
 SYNC_INTERVAL = 5
