@@ -10,7 +10,7 @@ POINTER_FILE = BASE_DIR / "pointer.json"
 
 API_BASE_URL = os.getenv("API_BASE_URL", "")
 API_SYNC_ENDPOINT = f"{API_BASE_URL}/biometric/marks-sync/"
-API_TOKEN_ENDPOINT = os.getenv("")
+API_TOKEN_ENDPOINT = os.getenv("API_TOKEN_URL", "")
 
 API_USERNAME = os.getenv("API_USERNAME", "")
 API_PASSWORD = os.getenv("API_PASSWORD", "")
